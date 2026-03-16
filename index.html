@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kısayol Sayfası</title>
+  <style>
+    :root {
+      color-scheme: light;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7fb;
+      color: #111827;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 32px 16px;
+    }
+
+    h1 {
+      margin-top: 0;
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    p {
+      text-align: center;
+      margin-bottom: 28px;
+      color: #4b5563;
+    }
+
+    .logo-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+      gap: 16px;
+    }
+
+    .logo-card {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 12px;
+      padding: 18px;
+      min-height: 120px;
+      text-decoration: none;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .logo-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    .logo-card img {
+      max-width: 100%;
+      max-height: 70px;
+      object-fit: contain;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+    <h1>Hoşgeldiniz 👋🏻</h1>
+    <p>Aşağıdaki logolara tıklayarak ilgili sitelere gidebilirsiniz.</p>
+
+    <section class="logo-grid">
+      <a class="logo-card" href="https://www.garantibbva.com.tr/" aria-label="Garanti BBVA">
+        <img src="images/garanti.png" alt="Garanti BBVA">
+      </a>
+
+      <a class="logo-card" href="https://www.ziraatbank.com.tr/" aria-label="Ziraat Bankasi">
+        <img src="images/ziraat.png" alt="Ziraat Bankasi">
+      </a>
+
+      <a class="logo-card" href="https://www.isbank.com.tr/" aria-label="Turkiye Is Bankasi">
+        <img src="images/isbankası.png" alt="Turkiye Is Bankasi">
+      </a>
+
+      <a class="logo-card" href="https://www.vakifbank.com.tr/" aria-label="VakıfBank">
+        <img src="images/vakıfbank.png" alt="VakıfBank">
+      </a>
+
+      <a class="logo-card" href="https://www.youtube.com/" aria-label="YouTube">
+        <img src="images/youtube.png" alt="YouTube">
+      </a>
+
+      <a class="logo-card" href="https://www.google.com/" aria-label="Google">
+        <img src="images/google.png" alt="Google">
+      </a>
+
+      <a class="logo-card" href="https://www.turkiye.gov.tr/" aria-label="e-Devlet">
+        <img src="images/e-devlet.png" alt="e-Devlet">
+      </a>
+
+      <a class="logo-card" href="https://mail.google.com/" aria-label="Gmail">
+        <img src="images/gmail.png" alt="Gmail">
+      </a>
+
+      <a class="logo-card" href="https://www.gib.gov.tr/" aria-label="Gelir Idaresi Baskanligi">
+        <img src="images/gib.png" alt="Gelir Idaresi Baskanligi">
+      </a>
+
+      <a class="logo-card" href="https://enabiz.gov.tr/" aria-label="e-Nabiz">
+        <img src="images/enabız.png" alt="e-Nabiz">
+      </a>
+
+      <a class="logo-card" href="https://www.haberler.com/" aria-label="Haberler.com">
+        <img src="images/haberlercom.png" alt="Haberler.com">
+      </a>
+
+      <a class="logo-card" href="https://outlook.live.com/" aria-label="Outlook">
+        <img src="images/outlook.png" alt="Outlook">
+      </a>
+
+      <a class="logo-card" href="https://web.whatsapp.com/" aria-label="WhatsApp">
+        <img src="images/whatsapp.png" alt="WhatsApp">
+      </a>
+    </section>
+  </main>
+</body>
+
+</html>
